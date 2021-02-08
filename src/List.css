@@ -1,0 +1,46 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    transition: all 0.3s linear;
+    padding: 0rem 1rem;
+    border-radius: 0.25rem;
+    text-transform: capitalize;
+  }
+  .edit-btn,
+.delete-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 0.7rem;
+  margin: 0 0.15rem;
+  transition: all 0.3s linear;
+}
+.edit-btn {
+  color: hsl(125, 71%, 66%);
+}
+.edit-btn:hover {
+  color: hsl(125, 100%, 17%);
+}
+.delete-btn {
+  color: hsl(360, 71%, 66%);
+}
+.delete-btn:hover {
+  color: hsl(360, 67%, 44%);
+}
+
+.task-item:hover {
+    color: hsl(0, 0%, 100%);
+    background: hsl(270, 67%, 62%);
+  }
+  .task-item:hover .title {
+    color: hsl(210, 22%, 49%);
+  }
+  .title {
+    margin-bottom: 0;
+    color: white;
+    letter-spacing: 2px;
+    transition: all 0.3s linear;
+  }

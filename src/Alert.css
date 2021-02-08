@@ -1,0 +1,26 @@
+.alert {
+    margin-bottom: 1rem;
+    height: 1.25rem;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 0.7rem;
+    border-radius: 0.25rem;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+  }
+
+  
+  .alert-danger {
+    color: #fd0922;
+    background: #381619;
+  }
+  .alert-success {
+    color: #04fc3d;
+    background: #0f2715;
+  }
+  .grocery-form h3 {
+    color: hsl(205, 86%, 17%);
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
